@@ -44,6 +44,7 @@
 html,
 body {
   height: 100%;
+  color: var(--gray-950);
 }
 
 /*
@@ -104,4 +105,11 @@ h6 {
 
 .extra-bold {
   font-weight: 900;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--yellow);
 }
