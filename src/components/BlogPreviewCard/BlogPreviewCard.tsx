@@ -13,7 +13,7 @@ const BlogPreviewCard = () => {
         <Tag>Learning</Tag>
         <span className={"text-preset-3"}>Published 21 Dec 2023</span>
         <h4 className={styles.title}>HTML & CSS foundations</h4>
-        <p className={styles.desc}>
+        <p className={`${styles.desc} text-preset-2`}>
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
